@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/ThewApp/mdcu-61-iconography/issues"
   },
-  "homepage": "https://github.com/ThewApp/mdcu-61-iconography#readme"
+  "homepage": "https://github.com/ThewApp/mdcu-61-iconography#readme",
+  "devDependencies": {
+    "mdx-deck": "^1.10.0"
+  }
 }
