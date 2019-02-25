@@ -9,7 +9,7 @@ for directory in */; do
     if [[ -z $ignored ]]; then
         # mdx-deck build
         mkdir -p dist/$directory
-        cp -r $directory/ dist/$directory
+        cp -r $directory/. dist/$directory
         echo Building... $directory
         npx mdx-deck build $directory/deck.mdx -d dist/$directory
     fi
